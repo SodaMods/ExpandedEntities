@@ -14,6 +14,7 @@ import org.apache.logging.log4j.Logger;
 public class Main
 {
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "expandedentities";
 
     public Main() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
