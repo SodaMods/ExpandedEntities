@@ -5,7 +5,7 @@ import net.minecraft.item.ItemGroup;
 
 public class SoulItemBase extends Item {
     public SoulItemBase() {
-        super(new Item.Properties().maxStackSize(12)
-                .group(ItemGroup.MISC));
+        super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(12)
+               );
     }
 }
